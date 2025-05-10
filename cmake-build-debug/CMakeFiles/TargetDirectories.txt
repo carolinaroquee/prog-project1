@@ -1,0 +1,5 @@
+C:/Users/carol/PROG2/project/cmake-build-debug/CMakeFiles/runscrim.dir
+C:/Users/carol/PROG2/project/cmake-build-debug/CMakeFiles/tester.dir
+C:/Users/carol/PROG2/project/cmake-build-debug/CMakeFiles/delivery.dir
+C:/Users/carol/PROG2/project/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/carol/PROG2/project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
