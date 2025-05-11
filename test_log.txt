@@ -1,16 +1,16 @@
->>> [1] move1 <<<
+>>> [1] slide1 <<<
 Applying command 'Open filename:input/lion.png'
-Applying command 'move'
-Applying command 'Save filename:output/move1.png'
->>> [2] move2 <<<
+Applying command 'slide'
+Applying command 'Save filename:output/slide1.png'
+>>> [2] slide2 <<<
 Applying command 'Open filename:input/lion.png'
-Applying command 'move'
-Applying command 'Save filename:output/move2.png'
->>> [3] move3 <<<
+Applying command 'slide'
+Applying command 'Save filename:output/slide2.png'
+>>> [3] slide3 <<<
 Applying command 'Open filename:input/lion.png'
-Applying command 'move'
-Applying command 'Save filename:output/move3.png'
->>> [4] move4 <<<
+Applying command 'slide'
+Applying command 'Save filename:output/slide3.png'
+>>> [4] slide4 <<<
 Applying command 'Open filename:input/lion.png'
-Applying command 'move'
-Applying command 'Save filename:output/move4.png'
+Applying command 'slide'
+Applying command 'Save filename:output/slide4.png'

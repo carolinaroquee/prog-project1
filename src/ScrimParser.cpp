@@ -3,6 +3,7 @@
 //
 #include "ScrimParser.hpp"
 
+#include "Command/Slide.hpp"
 #include "Command/Move.hpp"
 #include "Command/Add.hpp"
 #include "Command/H_Mirror.hpp"
@@ -118,6 +119,12 @@ namespace prog {
             int x, y;
             input >> x >> y;
             return new command :: Move(x, y);
+        }
+
+        if (command_name == "slide") {
+            int x, y;
+            input >> x >> y;
+            return new command::Slide(x, y);
         }
 
         *Logger::err() << "Command not recognized: '" + command_name + "'\n";

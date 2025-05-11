@@ -16,6 +16,7 @@
 				"C:/Users/carol/PROG2/project/src/Command/Open.cpp",
 				"C:/Users/carol/PROG2/project/src/Command/Replace.cpp",
 				"C:/Users/carol/PROG2/project/src/Command/Save.cpp",
+				"C:/Users/carol/PROG2/project/src/Command/Slide.cpp",
 				"C:/Users/carol/PROG2/project/src/Command/ToGrayScale.cpp",
 				"C:/Users/carol/PROG2/project/src/Command/V_Mirror.cpp",
 				"C:/Users/carol/PROG2/project/src/Image.cpp",
