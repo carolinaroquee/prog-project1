@@ -178,4 +178,6 @@ CMakeFiles/tester.dir/src/ScrimParser.cpp.o: \
  /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/Open.hpp \
  /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/Resize.hpp \
  /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Image.hpp \
+ /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/RotateLeft.hpp \
+ /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/RotateRight.hpp \
  /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Logger.hpp

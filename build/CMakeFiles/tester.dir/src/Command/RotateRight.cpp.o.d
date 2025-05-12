@@ -1,8 +1,7 @@
-CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o: \
- /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/ScrimParser.cpp \
+CMakeFiles/tester.dir/src/Command/RotateRight.cpp.o: \
+ /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/RotateRight.cpp \
  /usr/include/stdc-predef.h \
- /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/ScrimParser.hpp \
- /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Scrim.hpp \
+ /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/RotateRight.hpp \
  /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command.hpp \
  /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Image.hpp \
  /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Color.hpp \
@@ -158,26 +157,4 @@ CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o: \
  /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
- /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/fstream \
- /usr/include/c++/13/bits/codecvt.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
- /usr/include/c++/13/bits/fstream.tcc \
- /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/Slide.hpp \
- /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command.hpp \
- /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/Move.hpp \
- /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/Add.hpp \
- /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/H_Mirror.hpp \
- /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/Fill.hpp \
- /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Color.hpp \
- /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/Replace.hpp \
- /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/ToGrayScale.hpp \
- /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/Invert.hpp \
- /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/Blank.hpp \
- /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/Save.hpp \
- /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/Open.hpp \
- /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/Resize.hpp \
- /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Image.hpp \
- /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/RotateLeft.hpp \
- /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/RotateRight.hpp \
- /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Logger.hpp
+ /usr/include/c++/13/bits/vector.tcc

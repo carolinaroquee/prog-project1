@@ -16,6 +16,8 @@ set(OLD_GLOB
   "/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Open.cpp"
   "/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Replace.cpp"
   "/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Resize.cpp"
+  "/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/RotateLeft.cpp"
+  "/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/RotateRight.cpp"
   "/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Save.cpp"
   "/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Slide.cpp"
   "/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/ToGrayScale.cpp"
