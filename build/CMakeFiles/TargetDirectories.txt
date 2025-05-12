@@ -1,0 +1,5 @@
+/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles/runscrim.dir
+/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles/tester.dir
+/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles/delivery.dir
+/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles/edit_cache.dir
+/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles/rebuild_cache.dir

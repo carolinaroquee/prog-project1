@@ -14,6 +14,7 @@
 #include "Command/Blank.hpp"
 #include "Command/Save.hpp"
 #include "Command/Open.hpp"
+#include "Command/Resize.hpp"
 #include "Logger.hpp"
 
 #include <fstream>
@@ -127,6 +128,12 @@ namespace prog {
             return new command::Slide(x, y);
         }
 
+        if (command_name == "resize") {
+            int x, y, w, h;
+            input >> x >> y >> w >> h;
+            return new command::Resize(x, y, w, h);
+        }
+        
         *Logger::err() << "Command not recognized: '" + command_name + "'\n";
         return nullptr;
     }
