@@ -10,7 +10,7 @@ namespace prog {
             for (int y = 0; y < img->height() / 2; ++y) {
                 for (int x = 0; x < img->width(); ++x) {
                     Color& top = img->at(x, y);
-                    Color& bottom = img->at(x, img->height() - 1 - y);
+                    Color& bottom= img->at(x, img->height() - 1 - y);
                     swap(top, bottom);
                 }
             }

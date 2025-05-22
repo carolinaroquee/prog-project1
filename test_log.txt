@@ -281,21 +281,21 @@ Applying command 'rotate_right'
 Applying command 'rotate_right'
 Applying command 'Save filename:output/rotate_right3.png'
 >>> [54] scaleup1 <<<
-Command not recognized: 'scaleup'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/lion.png'
+Applying command 'scaleup'
+Applying command 'Save filename:output/scaleup1.png'
 >>> [55] scaleup2 <<<
-Command not recognized: 'scaleup'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/lion.png'
+Applying command 'scaleup'
+Applying command 'Save filename:output/scaleup2.png'
 >>> [56] scaleup3 <<<
-Command not recognized: 'scaleup'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/lion.png'
+Applying command 'scaleup'
+Applying command 'Save filename:output/scaleup3.png'
 >>> [57] scaleup4 <<<
-Command not recognized: 'scaleup'
-Error while parsing command
-Scrim parse failed
+Applying command 'Open filename:input/lion.png'
+Applying command 'scaleup'
+Applying command 'Save filename:output/scaleup4.png'
 >>> [58] slide1 <<<
 Applying command 'Open filename:input/lion.png'
 Applying command 'slide'

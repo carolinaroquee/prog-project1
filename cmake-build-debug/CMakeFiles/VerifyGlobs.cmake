@@ -19,6 +19,7 @@ set(OLD_GLOB
   "/home/luis-silva/Documents/FEUP/PROG/2025/PROJECT/prog-project1/src/Command/RotateLeft.cpp"
   "/home/luis-silva/Documents/FEUP/PROG/2025/PROJECT/prog-project1/src/Command/RotateRight.cpp"
   "/home/luis-silva/Documents/FEUP/PROG/2025/PROJECT/prog-project1/src/Command/Save.cpp"
+  "/home/luis-silva/Documents/FEUP/PROG/2025/PROJECT/prog-project1/src/Command/Scaleup.cpp"
   "/home/luis-silva/Documents/FEUP/PROG/2025/PROJECT/prog-project1/src/Command/Slide.cpp"
   "/home/luis-silva/Documents/FEUP/PROG/2025/PROJECT/prog-project1/src/Command/ToGrayScale.cpp"
   "/home/luis-silva/Documents/FEUP/PROG/2025/PROJECT/prog-project1/src/Command/V_Mirror.cpp"

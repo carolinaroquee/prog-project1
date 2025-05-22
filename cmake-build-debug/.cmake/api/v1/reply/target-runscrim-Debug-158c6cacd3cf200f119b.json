@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "tester"
+			"path" : "runscrim"
 		}
 	],
 	"backtrace" : 1,
@@ -26,19 +26,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 27,
+				"line" : 21,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 41,
+				"line" : 40,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 35,
+				"line" : 32,
 				"parent" : 0
 			}
 		]
@@ -85,11 +85,12 @@
 				20,
 				21,
 				22,
-				23
+				23,
+				24
 			]
 		}
 	],
-	"id" : "tester::@6890427a1f51a3e7e1df",
+	"id" : "runscrim::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -110,8 +111,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "tester",
-	"nameOnDisk" : "tester",
+	"name" : "runscrim",
+	"nameOnDisk" : "runscrim",
 	"paths" : 
 	{
 		"build" : ".",
@@ -146,7 +147,8 @@
 				20,
 				21,
 				22,
-				23
+				23,
+				24
 			]
 		}
 	],
@@ -239,6 +241,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "src/Command/Scaleup.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "src/Command/Slide.cpp",
 			"sourceGroupIndex" : 0
 		},
@@ -293,7 +301,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main/Tester.cpp",
+			"path" : "main/RunScrim.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
