@@ -7,6 +7,7 @@
 #include "Command/Move.hpp"
 #include "Command/Add.hpp"
 #include "Command/H_Mirror.hpp"
+#include "Command/V_Mirror.hpp"
 #include "Command/Fill.hpp"
 #include "Command/Replace.hpp"
 #include "Command/ToGrayScale.hpp"
@@ -110,6 +111,8 @@ namespace prog {
         }
 
         if (command_name == "h_mirror") return new command::H_Mirror();
+
+        if (command_name == "v_mirror") return new command::V_Mirror();
 
         if (command_name == "add") {
             std::string filename;
