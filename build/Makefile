@@ -312,6 +312,60 @@ src/Command/Blank.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Blank.cpp.s
 .PHONY : src/Command/Blank.cpp.s
 
+src/Command/Chain.o: src/Command/Chain.cpp.o
+.PHONY : src/Command/Chain.o
+
+# target to build an object file
+src/Command/Chain.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Chain.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Chain.cpp.o
+.PHONY : src/Command/Chain.cpp.o
+
+src/Command/Chain.i: src/Command/Chain.cpp.i
+.PHONY : src/Command/Chain.i
+
+# target to preprocess a source file
+src/Command/Chain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Chain.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Chain.cpp.i
+.PHONY : src/Command/Chain.cpp.i
+
+src/Command/Chain.s: src/Command/Chain.cpp.s
+.PHONY : src/Command/Chain.s
+
+# target to generate assembly for a file
+src/Command/Chain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Chain.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Chain.cpp.s
+.PHONY : src/Command/Chain.cpp.s
+
+src/Command/Crop.o: src/Command/Crop.cpp.o
+.PHONY : src/Command/Crop.o
+
+# target to build an object file
+src/Command/Crop.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Crop.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Crop.cpp.o
+.PHONY : src/Command/Crop.cpp.o
+
+src/Command/Crop.i: src/Command/Crop.cpp.i
+.PHONY : src/Command/Crop.i
+
+# target to preprocess a source file
+src/Command/Crop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Crop.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Crop.cpp.i
+.PHONY : src/Command/Crop.cpp.i
+
+src/Command/Crop.s: src/Command/Crop.cpp.s
+.PHONY : src/Command/Crop.s
+
+# target to generate assembly for a file
+src/Command/Crop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Crop.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Crop.cpp.s
+.PHONY : src/Command/Crop.cpp.s
+
 src/Command/Fill.o: src/Command/Fill.cpp.o
 .PHONY : src/Command/Fill.o
 
@@ -581,6 +635,33 @@ src/Command/Save.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Save.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Save.cpp.s
 .PHONY : src/Command/Save.cpp.s
+
+src/Command/Scaleup.o: src/Command/Scaleup.cpp.o
+.PHONY : src/Command/Scaleup.o
+
+# target to build an object file
+src/Command/Scaleup.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Scaleup.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Scaleup.cpp.o
+.PHONY : src/Command/Scaleup.cpp.o
+
+src/Command/Scaleup.i: src/Command/Scaleup.cpp.i
+.PHONY : src/Command/Scaleup.i
+
+# target to preprocess a source file
+src/Command/Scaleup.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Scaleup.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Scaleup.cpp.i
+.PHONY : src/Command/Scaleup.cpp.i
+
+src/Command/Scaleup.s: src/Command/Scaleup.cpp.s
+.PHONY : src/Command/Scaleup.s
+
+# target to generate assembly for a file
+src/Command/Scaleup.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runscrim.dir/build.make CMakeFiles/runscrim.dir/src/Command/Scaleup.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tester.dir/build.make CMakeFiles/tester.dir/src/Command/Scaleup.cpp.s
+.PHONY : src/Command/Scaleup.cpp.s
 
 src/Command/Slide.o: src/Command/Slide.cpp.o
 .PHONY : src/Command/Slide.o
@@ -854,6 +935,12 @@ help:
 	@echo "... src/Command/Blank.o"
 	@echo "... src/Command/Blank.i"
 	@echo "... src/Command/Blank.s"
+	@echo "... src/Command/Chain.o"
+	@echo "... src/Command/Chain.i"
+	@echo "... src/Command/Chain.s"
+	@echo "... src/Command/Crop.o"
+	@echo "... src/Command/Crop.i"
+	@echo "... src/Command/Crop.s"
 	@echo "... src/Command/Fill.o"
 	@echo "... src/Command/Fill.i"
 	@echo "... src/Command/Fill.s"
@@ -884,6 +971,9 @@ help:
 	@echo "... src/Command/Save.o"
 	@echo "... src/Command/Save.i"
 	@echo "... src/Command/Save.s"
+	@echo "... src/Command/Scaleup.o"
+	@echo "... src/Command/Scaleup.i"
+	@echo "... src/Command/Scaleup.s"
 	@echo "... src/Command/Slide.o"
 	@echo "... src/Command/Slide.i"
 	@echo "... src/Command/Slide.s"

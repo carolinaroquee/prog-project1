@@ -168,8 +168,11 @@ CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o: \
  /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/Move.hpp \
  /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/Add.hpp \
  /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/H_Mirror.hpp \
+ /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/V_Mirror.hpp \
  /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/Fill.hpp \
  /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Color.hpp \
+ /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/Crop.hpp \
+ /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/Scaleup.hpp \
  /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/Replace.hpp \
  /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/ToGrayScale.hpp \
  /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/Invert.hpp \
@@ -180,4 +183,11 @@ CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o: \
  /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Image.hpp \
  /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/RotateLeft.hpp \
  /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/RotateRight.hpp \
+ /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Command/Chain.hpp \
+ /usr/include/c++/13/set /usr/include/c++/13/bits/stl_tree.h \
+ /usr/include/c++/13/ext/aligned_buffer.h \
+ /usr/include/c++/13/bits/node_handle.h \
+ /usr/include/c++/13/bits/stl_set.h \
+ /usr/include/c++/13/bits/stl_multiset.h \
+ /usr/include/c++/13/bits/erase_if.h \
  /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/include/Logger.hpp

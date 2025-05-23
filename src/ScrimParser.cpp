@@ -20,6 +20,7 @@
 #include "Command/Resize.hpp"
 #include "Command/RotateLeft.hpp"
 #include "Command/RotateRight.hpp"
+#include "Command/Chain.hpp"
 #include "Logger.hpp"
 
 #include <fstream>
@@ -206,6 +207,16 @@ namespace prog {
         if (command_name == "rotate_right")
             return new command::RotateRight();
 
+        if (command_name == "chain") {
+            std::vector<std::string> filenames;
+            std::string token;
+
+            while (input >> token && token != "end") {
+                filenames.push_back(token);
+            }
+
+            return new command::Chain(filenames);
+        }
         // Unrecognized command case: log error and return nullptr
         *Logger::err() << "Command not recognized: '" + command_name + "'\n";
         return nullptr;

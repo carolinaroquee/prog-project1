@@ -62,7 +62,7 @@ namespace prog {
      *
      * @return std::vector<Command *> Vector of pointers to Command objects.
      */
-    std::vector<Command *> Scrim::getCommands() const {
+    const std::vector<Command *>& Scrim::getCommands() const {
         return commands;
     }
 }

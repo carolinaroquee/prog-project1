@@ -125,10 +125,38 @@ CMakeFiles/runscrim.dir/src/Command/Blank.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/Blank.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Blank.cpp -o CMakeFiles/runscrim.dir/src/Command/Blank.cpp.s
 
+CMakeFiles/runscrim.dir/src/Command/Chain.cpp.o: CMakeFiles/runscrim.dir/flags.make
+CMakeFiles/runscrim.dir/src/Command/Chain.cpp.o: /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Chain.cpp
+CMakeFiles/runscrim.dir/src/Command/Chain.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Chain.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/Chain.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/Chain.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/Chain.cpp.o -c /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Chain.cpp
+
+CMakeFiles/runscrim.dir/src/Command/Chain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runscrim.dir/src/Command/Chain.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Chain.cpp > CMakeFiles/runscrim.dir/src/Command/Chain.cpp.i
+
+CMakeFiles/runscrim.dir/src/Command/Chain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/Chain.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Chain.cpp -o CMakeFiles/runscrim.dir/src/Command/Chain.cpp.s
+
+CMakeFiles/runscrim.dir/src/Command/Crop.cpp.o: CMakeFiles/runscrim.dir/flags.make
+CMakeFiles/runscrim.dir/src/Command/Crop.cpp.o: /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Crop.cpp
+CMakeFiles/runscrim.dir/src/Command/Crop.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Crop.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/Crop.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/Crop.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/Crop.cpp.o -c /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Crop.cpp
+
+CMakeFiles/runscrim.dir/src/Command/Crop.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runscrim.dir/src/Command/Crop.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Crop.cpp > CMakeFiles/runscrim.dir/src/Command/Crop.cpp.i
+
+CMakeFiles/runscrim.dir/src/Command/Crop.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/Crop.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Crop.cpp -o CMakeFiles/runscrim.dir/src/Command/Crop.cpp.s
+
 CMakeFiles/runscrim.dir/src/Command/Fill.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Command/Fill.cpp.o: /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Fill.cpp
 CMakeFiles/runscrim.dir/src/Command/Fill.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Fill.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Fill.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/Fill.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/Fill.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/Fill.cpp.o -c /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Fill.cpp
 
 CMakeFiles/runscrim.dir/src/Command/Fill.cpp.i: cmake_force
@@ -142,7 +170,7 @@ CMakeFiles/runscrim.dir/src/Command/Fill.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/Command/H_Mirror.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Command/H_Mirror.cpp.o: /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/H_Mirror.cpp
 CMakeFiles/runscrim.dir/src/Command/H_Mirror.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/runscrim.dir/src/Command/H_Mirror.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/runscrim.dir/src/Command/H_Mirror.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/H_Mirror.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/H_Mirror.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/H_Mirror.cpp.o -c /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/H_Mirror.cpp
 
 CMakeFiles/runscrim.dir/src/Command/H_Mirror.cpp.i: cmake_force
@@ -156,7 +184,7 @@ CMakeFiles/runscrim.dir/src/Command/H_Mirror.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/Command/Invert.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Command/Invert.cpp.o: /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Invert.cpp
 CMakeFiles/runscrim.dir/src/Command/Invert.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Invert.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Invert.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/Invert.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/Invert.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/Invert.cpp.o -c /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Invert.cpp
 
 CMakeFiles/runscrim.dir/src/Command/Invert.cpp.i: cmake_force
@@ -170,7 +198,7 @@ CMakeFiles/runscrim.dir/src/Command/Invert.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/Command/Move.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Command/Move.cpp.o: /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Move.cpp
 CMakeFiles/runscrim.dir/src/Command/Move.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Move.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Move.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/Move.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/Move.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/Move.cpp.o -c /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Move.cpp
 
 CMakeFiles/runscrim.dir/src/Command/Move.cpp.i: cmake_force
@@ -184,7 +212,7 @@ CMakeFiles/runscrim.dir/src/Command/Move.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/Command/Open.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Command/Open.cpp.o: /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Open.cpp
 CMakeFiles/runscrim.dir/src/Command/Open.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Open.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Open.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/Open.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/Open.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/Open.cpp.o -c /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Open.cpp
 
 CMakeFiles/runscrim.dir/src/Command/Open.cpp.i: cmake_force
@@ -198,7 +226,7 @@ CMakeFiles/runscrim.dir/src/Command/Open.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/Command/Replace.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Command/Replace.cpp.o: /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Replace.cpp
 CMakeFiles/runscrim.dir/src/Command/Replace.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Replace.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Replace.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/Replace.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/Replace.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/Replace.cpp.o -c /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Replace.cpp
 
 CMakeFiles/runscrim.dir/src/Command/Replace.cpp.i: cmake_force
@@ -212,7 +240,7 @@ CMakeFiles/runscrim.dir/src/Command/Replace.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/Command/Resize.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Command/Resize.cpp.o: /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Resize.cpp
 CMakeFiles/runscrim.dir/src/Command/Resize.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Resize.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Resize.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/Resize.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/Resize.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/Resize.cpp.o -c /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Resize.cpp
 
 CMakeFiles/runscrim.dir/src/Command/Resize.cpp.i: cmake_force
@@ -226,7 +254,7 @@ CMakeFiles/runscrim.dir/src/Command/Resize.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.o: /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/RotateLeft.cpp
 CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.o -c /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/RotateLeft.cpp
 
 CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.i: cmake_force
@@ -240,7 +268,7 @@ CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.o: /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/RotateRight.cpp
 CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.o -c /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/RotateRight.cpp
 
 CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.i: cmake_force
@@ -254,7 +282,7 @@ CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/Command/Save.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Command/Save.cpp.o: /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Save.cpp
 CMakeFiles/runscrim.dir/src/Command/Save.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Save.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Save.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/Save.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/Save.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/Save.cpp.o -c /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Save.cpp
 
 CMakeFiles/runscrim.dir/src/Command/Save.cpp.i: cmake_force
@@ -265,10 +293,24 @@ CMakeFiles/runscrim.dir/src/Command/Save.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/Save.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Save.cpp -o CMakeFiles/runscrim.dir/src/Command/Save.cpp.s
 
+CMakeFiles/runscrim.dir/src/Command/Scaleup.cpp.o: CMakeFiles/runscrim.dir/flags.make
+CMakeFiles/runscrim.dir/src/Command/Scaleup.cpp.o: /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Scaleup.cpp
+CMakeFiles/runscrim.dir/src/Command/Scaleup.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Scaleup.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/Scaleup.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/Scaleup.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/Scaleup.cpp.o -c /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Scaleup.cpp
+
+CMakeFiles/runscrim.dir/src/Command/Scaleup.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runscrim.dir/src/Command/Scaleup.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Scaleup.cpp > CMakeFiles/runscrim.dir/src/Command/Scaleup.cpp.i
+
+CMakeFiles/runscrim.dir/src/Command/Scaleup.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runscrim.dir/src/Command/Scaleup.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Scaleup.cpp -o CMakeFiles/runscrim.dir/src/Command/Scaleup.cpp.s
+
 CMakeFiles/runscrim.dir/src/Command/Slide.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Command/Slide.cpp.o: /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Slide.cpp
 CMakeFiles/runscrim.dir/src/Command/Slide.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Slide.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/runscrim.dir/src/Command/Slide.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/Slide.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/Slide.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/Slide.cpp.o -c /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/Slide.cpp
 
 CMakeFiles/runscrim.dir/src/Command/Slide.cpp.i: cmake_force
@@ -282,7 +324,7 @@ CMakeFiles/runscrim.dir/src/Command/Slide.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/Command/ToGrayScale.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Command/ToGrayScale.cpp.o: /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/ToGrayScale.cpp
 CMakeFiles/runscrim.dir/src/Command/ToGrayScale.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/runscrim.dir/src/Command/ToGrayScale.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/runscrim.dir/src/Command/ToGrayScale.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/ToGrayScale.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/ToGrayScale.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/ToGrayScale.cpp.o -c /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/ToGrayScale.cpp
 
 CMakeFiles/runscrim.dir/src/Command/ToGrayScale.cpp.i: cmake_force
@@ -296,7 +338,7 @@ CMakeFiles/runscrim.dir/src/Command/ToGrayScale.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/Command/V_Mirror.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Command/V_Mirror.cpp.o: /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/V_Mirror.cpp
 CMakeFiles/runscrim.dir/src/Command/V_Mirror.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/runscrim.dir/src/Command/V_Mirror.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/runscrim.dir/src/Command/V_Mirror.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Command/V_Mirror.cpp.o -MF CMakeFiles/runscrim.dir/src/Command/V_Mirror.cpp.o.d -o CMakeFiles/runscrim.dir/src/Command/V_Mirror.cpp.o -c /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Command/V_Mirror.cpp
 
 CMakeFiles/runscrim.dir/src/Command/V_Mirror.cpp.i: cmake_force
@@ -310,7 +352,7 @@ CMakeFiles/runscrim.dir/src/Command/V_Mirror.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/Image.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Image.cpp.o: /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Image.cpp
 CMakeFiles/runscrim.dir/src/Image.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/runscrim.dir/src/Image.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/runscrim.dir/src/Image.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Image.cpp.o -MF CMakeFiles/runscrim.dir/src/Image.cpp.o.d -o CMakeFiles/runscrim.dir/src/Image.cpp.o -c /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Image.cpp
 
 CMakeFiles/runscrim.dir/src/Image.cpp.i: cmake_force
@@ -324,7 +366,7 @@ CMakeFiles/runscrim.dir/src/Image.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/Logger.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Logger.cpp.o: /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Logger.cpp
 CMakeFiles/runscrim.dir/src/Logger.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/runscrim.dir/src/Logger.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/runscrim.dir/src/Logger.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Logger.cpp.o -MF CMakeFiles/runscrim.dir/src/Logger.cpp.o.d -o CMakeFiles/runscrim.dir/src/Logger.cpp.o -c /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Logger.cpp
 
 CMakeFiles/runscrim.dir/src/Logger.cpp.i: cmake_force
@@ -338,7 +380,7 @@ CMakeFiles/runscrim.dir/src/Logger.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/PNG.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/PNG.cpp.o: /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/PNG.cpp
 CMakeFiles/runscrim.dir/src/PNG.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/runscrim.dir/src/PNG.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/runscrim.dir/src/PNG.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/PNG.cpp.o -MF CMakeFiles/runscrim.dir/src/PNG.cpp.o.d -o CMakeFiles/runscrim.dir/src/PNG.cpp.o -c /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/PNG.cpp
 
 CMakeFiles/runscrim.dir/src/PNG.cpp.i: cmake_force
@@ -352,7 +394,7 @@ CMakeFiles/runscrim.dir/src/PNG.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/Scrim.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Scrim.cpp.o: /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Scrim.cpp
 CMakeFiles/runscrim.dir/src/Scrim.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/runscrim.dir/src/Scrim.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/runscrim.dir/src/Scrim.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Scrim.cpp.o -MF CMakeFiles/runscrim.dir/src/Scrim.cpp.o.d -o CMakeFiles/runscrim.dir/src/Scrim.cpp.o -c /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Scrim.cpp
 
 CMakeFiles/runscrim.dir/src/Scrim.cpp.i: cmake_force
@@ -366,7 +408,7 @@ CMakeFiles/runscrim.dir/src/Scrim.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o: /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/ScrimParser.cpp
 CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o -MF CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o.d -o CMakeFiles/runscrim.dir/src/ScrimParser.cpp.o -c /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/ScrimParser.cpp
 
 CMakeFiles/runscrim.dir/src/ScrimParser.cpp.i: cmake_force
@@ -380,7 +422,7 @@ CMakeFiles/runscrim.dir/src/ScrimParser.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/src/Utils.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/src/Utils.cpp.o: /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Utils.cpp
 CMakeFiles/runscrim.dir/src/Utils.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/runscrim.dir/src/Utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/runscrim.dir/src/Utils.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/src/Utils.cpp.o -MF CMakeFiles/runscrim.dir/src/Utils.cpp.o.d -o CMakeFiles/runscrim.dir/src/Utils.cpp.o -c /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/src/Utils.cpp
 
 CMakeFiles/runscrim.dir/src/Utils.cpp.i: cmake_force
@@ -394,7 +436,7 @@ CMakeFiles/runscrim.dir/src/Utils.cpp.s: cmake_force
 CMakeFiles/runscrim.dir/main/RunScrim.cpp.o: CMakeFiles/runscrim.dir/flags.make
 CMakeFiles/runscrim.dir/main/RunScrim.cpp.o: /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/main/RunScrim.cpp
 CMakeFiles/runscrim.dir/main/RunScrim.cpp.o: CMakeFiles/runscrim.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/runscrim.dir/main/RunScrim.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/runscrim.dir/main/RunScrim.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runscrim.dir/main/RunScrim.cpp.o -MF CMakeFiles/runscrim.dir/main/RunScrim.cpp.o.d -o CMakeFiles/runscrim.dir/main/RunScrim.cpp.o -c /home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/main/RunScrim.cpp
 
 CMakeFiles/runscrim.dir/main/RunScrim.cpp.i: cmake_force
@@ -411,6 +453,8 @@ runscrim_OBJECTS = \
 "CMakeFiles/runscrim.dir/src/Command.cpp.o" \
 "CMakeFiles/runscrim.dir/src/Command/Add.cpp.o" \
 "CMakeFiles/runscrim.dir/src/Command/Blank.cpp.o" \
+"CMakeFiles/runscrim.dir/src/Command/Chain.cpp.o" \
+"CMakeFiles/runscrim.dir/src/Command/Crop.cpp.o" \
 "CMakeFiles/runscrim.dir/src/Command/Fill.cpp.o" \
 "CMakeFiles/runscrim.dir/src/Command/H_Mirror.cpp.o" \
 "CMakeFiles/runscrim.dir/src/Command/Invert.cpp.o" \
@@ -421,6 +465,7 @@ runscrim_OBJECTS = \
 "CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.o" \
 "CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.o" \
 "CMakeFiles/runscrim.dir/src/Command/Save.cpp.o" \
+"CMakeFiles/runscrim.dir/src/Command/Scaleup.cpp.o" \
 "CMakeFiles/runscrim.dir/src/Command/Slide.cpp.o" \
 "CMakeFiles/runscrim.dir/src/Command/ToGrayScale.cpp.o" \
 "CMakeFiles/runscrim.dir/src/Command/V_Mirror.cpp.o" \
@@ -439,6 +484,8 @@ runscrim: CMakeFiles/runscrim.dir/src/Color.cpp.o
 runscrim: CMakeFiles/runscrim.dir/src/Command.cpp.o
 runscrim: CMakeFiles/runscrim.dir/src/Command/Add.cpp.o
 runscrim: CMakeFiles/runscrim.dir/src/Command/Blank.cpp.o
+runscrim: CMakeFiles/runscrim.dir/src/Command/Chain.cpp.o
+runscrim: CMakeFiles/runscrim.dir/src/Command/Crop.cpp.o
 runscrim: CMakeFiles/runscrim.dir/src/Command/Fill.cpp.o
 runscrim: CMakeFiles/runscrim.dir/src/Command/H_Mirror.cpp.o
 runscrim: CMakeFiles/runscrim.dir/src/Command/Invert.cpp.o
@@ -449,6 +496,7 @@ runscrim: CMakeFiles/runscrim.dir/src/Command/Resize.cpp.o
 runscrim: CMakeFiles/runscrim.dir/src/Command/RotateLeft.cpp.o
 runscrim: CMakeFiles/runscrim.dir/src/Command/RotateRight.cpp.o
 runscrim: CMakeFiles/runscrim.dir/src/Command/Save.cpp.o
+runscrim: CMakeFiles/runscrim.dir/src/Command/Scaleup.cpp.o
 runscrim: CMakeFiles/runscrim.dir/src/Command/Slide.cpp.o
 runscrim: CMakeFiles/runscrim.dir/src/Command/ToGrayScale.cpp.o
 runscrim: CMakeFiles/runscrim.dir/src/Command/V_Mirror.cpp.o
@@ -461,7 +509,7 @@ runscrim: CMakeFiles/runscrim.dir/src/Utils.cpp.o
 runscrim: CMakeFiles/runscrim.dir/main/RunScrim.cpp.o
 runscrim: CMakeFiles/runscrim.dir/build.make
 runscrim: CMakeFiles/runscrim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable runscrim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/gm-aorus-15/Documentos/Faculdade/2ano/2_semestre/PROG/Projeto/prog-project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable runscrim"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runscrim.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -34,7 +34,7 @@ namespace prog {
          *
          * @return a reference to the commends
          */
-        std::vector<Command *> getCommands() const;
+        const std::vector<Command *>& getCommands() const;
 
     private:
         // Commands
