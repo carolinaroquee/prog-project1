@@ -6,42 +6,67 @@
 #define PROJECT_COMMAND_HPP
 
 #include "Image.hpp"
-
 #include <string>
 
 namespace prog {
-    //    namespace command {
 
-
+    /**
+     * @brief Abstract base class representing an image command.
+     *
+     * Each command can be applied to an Image to perform a transformation.
+     */
     class Command {
     public:
+        /**
+         * @brief Constructor that initializes the command with a name.
+         * @param command_name The name of the command.
+         */
         Command(std::string command_name);
 
+        /**
+         * @brief Virtual destructor (pure virtual, making this an abstract class).
+         */
         virtual ~Command() = 0;
 
         /**
-         * Applies this command to an image.
+         * @brief Applies this command to the given image.
          *
-         * @param img
-         * @return the image after the command (can be the same pointer or a new one).
-         * If a new pointer is returned, the previous one is deleted.
+         * @param img Pointer to the image to modify.
+         * @return Pointer to the resulting image after applying the command.
+         * The returned pointer can be the same as the input or a new one.
+         * If a new image pointer is returned, the old one should be deleted.
          */
         virtual Image *apply(Image *img) = 0;
 
         /**
+         * @brief Returns a string representation of the command.
          *
-         * @return string representation of this command, for printing
+         * Useful for logging or debugging.
+         *
+         * @return std::string String describing the command.
          */
         virtual std::string toString() const;
 
+        /**
+         * @brief Returns the name of the command.
+         * @return std::string The command's name.
+         */
         std::string name() const;
 
     private:
-        std::string command_name;
+        std::string command_name; ///< Name of the command instance
     };
 }
 
+/**
+ * @brief Output stream operator for Command.
+ *
+ * Allows printing the command's string representation.
+ *
+ * @param output Output stream.
+ * @param command Command to print.
+ * @return std::ostream& Reference to the output stream.
+ */
 std::ostream &operator<<(std::ostream &output, const prog::Command &command);
-
 
 #endif //PROJECT_COMMAND_HPP

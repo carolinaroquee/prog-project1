@@ -11,6 +11,16 @@ namespace fs = std::filesystem;
 
 namespace prog {
 
+    /**
+     * @brief Creates a directory and any necessary parent directories.
+     *
+     * If the directory already exists or the folder name is empty,
+     * the function returns true without creating anything.
+     *
+     * @param foldername The path of the directory to create.
+     * @return true if the directory was created successfully or already exists.
+     * @return false if the directory could not be created.
+     */
     bool mkdir(const std::string & foldername) {
 
         if (!foldername.empty() && !fs::exists(foldername)) {
@@ -31,6 +41,16 @@ namespace prog {
         return true;
      }
 
+    /**
+     * @brief Deletes all regular files inside the specified directory.
+     *
+     * Does not remove subdirectories or their contents.
+     * Prints an error if the folder does not exist or is not a directory.
+     *
+     * @param foldername The path to the directory from which files will be deleted.
+     * @return true if the files were deleted successfully or if the directory is empty.
+     * @return false if the folder does not exist or is not a directory.
+     */
      bool delete_files(std::string const & foldername) {
 
         if (!fs::exists(foldername) || !fs::is_directory(foldername)) {

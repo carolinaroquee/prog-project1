@@ -12,9 +12,17 @@
 using namespace std;
 
 namespace prog {
+
+    /**
+     * @brief Loads a PNG image from a file into an Image object.
+     *
+     * @param file The file path of the PNG image.
+     * @return Pointer to a newly allocated Image object containing the loaded image,
+     *         or nullptr if loading fails.
+     */
     Image* loadFromPNG(const string& file) {
         int w, h, dummy;
-        rgb_value *buffer = stbi_load(file.c_str(), &w, &h, &dummy, 3);
+        rgb_value *buffer = stbi_load(file.c_str(), &w, &h, &dummy, 3); // Load image as RGB (3 channels)
         if (buffer == nullptr) {
             return nullptr; // Could not load image!
         }
@@ -22,31 +30,39 @@ namespace prog {
         Image* image = new Image(w, h);
         for (int y = 0; y < h; y++) {
             for (int x = 0; x < w; x++) {
-                image -> at(x, y) = { p[0], p[1], p[2] };
+                // Set pixel color from buffer
+                image->at(x, y) = { p[0], p[1], p[2] };
                 p += 3;
             }
         }
-        stbi_image_free(buffer);
+        stbi_image_free(buffer); // Free loaded image buffer
         return image;
     }
+
+    /**
+     * @brief Saves an Image object to a PNG file.
+     *
+     * @param file The file path to save the PNG image.
+     * @param image Pointer to the Image to save. If nullptr or invalid size,
+     *              writes an empty PNG (corrupted).
+     */
     void saveToPNG(const string& file, const Image* image) {
         if (image == nullptr || image->height() < 0 || image->width() < 0) {
-            // saving an empty image (corrupted PNG)
+            // Saving an empty image (corrupted PNG)
             stbi_write_png(file.c_str(),
-                           0, //w,
-                           0, //h,
-                           3,
+                           0, // width
+                           0, // height
+                           3, // channels (RGB)
                            nullptr,
                            0);
-        }
-        else {
+        } else {
             int h = image->height();
             int w = image->width();
             rgb_value* buffer = new rgb_value[h * w * 3];
             rgb_value* p = buffer;
             for (int y = 0; y < h; y++) {
                 for (int x = 0; x < w; x++) {
-                    Color c = image -> at(x, y);
+                    Color c = image->at(x, y);
                     p[0] = c.red();
                     p[1] = c.green();
                     p[2] = c.blue();
@@ -59,28 +75,35 @@ namespace prog {
                            3,
                            buffer,
                            w * 3);
-            delete [] buffer;
+            delete[] buffer;
         }
     }
 
+    /**
+     * @brief Compares two PNG images pixel-by-pixel to check if they are identical.
+     *
+     * @param file1 Path to the first PNG file.
+     * @param file2 Path to the second PNG file.
+     * @return true if images are identical in size and pixel colors, false otherwise.
+     */
     bool comparePNG(const string& file1, const string& file2) {
         int w1, h1, w2, h2, dummy;
         rgb_value *buffer1 = stbi_load(file1.c_str(), &w1, &h1, &dummy, 3);
         if (buffer1 == nullptr) {
             *Logger::err() << "Could not load image from " << file1 << std::endl;
             return false;
-        }            
+        }
         rgb_value *buffer2 = stbi_load(file2.c_str(), &w2, &h2, &dummy, 3);
         if (buffer2 == nullptr) {
             *Logger::err() << "Could not load image from " << file2 << std::endl;
             stbi_image_free(buffer1);
             return false;
-        }  
+        }
         bool success = true;
         if (w1 != w2 || h1 != h2) {
             *Logger::err() << "Images have different dimensions: "
-                << w1 << "x" << h1 << " != "
-                << w2 << "x" << h2 <<  endl;
+                           << w1 << "x" << h1 << " != "
+                           << w2 << "x" << h2 << std::endl;
             success = false;
         } else {
             rgb_value* p1 = buffer1;
@@ -88,10 +111,9 @@ namespace prog {
             for (int y = 0; y < h1 && success; y++) {
                 for (int x = 0; x < w1; x++) {
                     if (p1[0] != p2[0] || p1[1] != p2[1] || p1[2] != p2[2]) {
-                        *Logger::err() << "Images differ at pixel (" << x << ", " << y << ")" << endl
-                            << (int) p1[0] << ' ' << (int) p1[1] << ' ' << (int) p1[2] << " vs "
-                            << (int) p2[0] << ' ' << (int) p2[1] << ' ' << (int) p2[2] << endl;
-
+                        *Logger::err() << "Images differ at pixel (" << x << ", " << y << ")" << std::endl
+                                       << (int)p1[0] << ' ' << (int)p1[1] << ' ' << (int)p1[2] << " vs "
+                                       << (int)p2[0] << ' ' << (int)p2[1] << ' ' << (int)p2[2] << std::endl;
                         success = false;
                         break;
                     }
