@@ -9,6 +9,7 @@
 #include "Command/H_Mirror.hpp"
 #include "Command/V_Mirror.hpp"
 #include "Command/Fill.hpp"
+#include "Command/Crop.hpp"
 #include "Command/Scaleup.hpp"
 #include "Command/Replace.hpp"
 #include "Command/ToGrayScale.hpp"
@@ -103,6 +104,13 @@ namespace prog {
             int r1, g1, b1, r2, g2, b2;
             input >> r1 >> g1 >> b1 >> r2 >> g2 >> b2;
             return new command::Replace(Color(r1, g1, b1), Color(r2, g2, b2));
+        }
+
+        if (command_name == "crop")
+        {
+            int x, y, w, h;
+            input >> x >> y >> w >> h;
+            return new command::Crop(x, y, w, h);
         }
 
         if (command_name == "fill") {

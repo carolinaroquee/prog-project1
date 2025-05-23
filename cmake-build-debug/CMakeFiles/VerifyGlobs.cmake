@@ -9,6 +9,7 @@ set(OLD_GLOB
   "/home/luis-silva/Documents/FEUP/PROG/2025/PROJECT/prog-project1/src/Command.cpp"
   "/home/luis-silva/Documents/FEUP/PROG/2025/PROJECT/prog-project1/src/Command/Add.cpp"
   "/home/luis-silva/Documents/FEUP/PROG/2025/PROJECT/prog-project1/src/Command/Blank.cpp"
+  "/home/luis-silva/Documents/FEUP/PROG/2025/PROJECT/prog-project1/src/Command/Crop.cpp"
   "/home/luis-silva/Documents/FEUP/PROG/2025/PROJECT/prog-project1/src/Command/Fill.cpp"
   "/home/luis-silva/Documents/FEUP/PROG/2025/PROJECT/prog-project1/src/Command/H_Mirror.cpp"
   "/home/luis-silva/Documents/FEUP/PROG/2025/PROJECT/prog-project1/src/Command/Invert.cpp"
